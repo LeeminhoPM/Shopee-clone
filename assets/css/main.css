@@ -86,9 +86,13 @@
 }
 
 .header__navbar-user {
-    display: flex;
+    display: none;
     justify-items: center;
     position: relative;
+}
+
+.header__navbar-user.open {
+    display: flex;
 }
 
 .header__navbar-user:hover .header__navbar-user-menu {
@@ -347,7 +351,35 @@
     background-color: var(--white-color);
     border-radius: 5px;
     overflow: hidden;
+    animation: modalFadeIn ease-in-out .1s;
 }
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Modal - Javascript */
+.auth-form.js-register-form {
+    display: none;
+}
+
+.auth-form.js-register-form.open {
+    display: block;
+}
+
+.auth-form.js-login-form {
+    display: none;
+}
+
+.auth-form.js-login-form.open {
+    display: block;
+}
+/* End Javasript */
 
 .auth-form__container {
     padding: 0 32px;
