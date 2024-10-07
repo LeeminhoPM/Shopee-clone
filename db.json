@@ -1,0 +1,54 @@
+{
+    "products": [
+        {
+            "name": "Hơi cay dân dụng",
+            "image": "./assets/img/Product2.jpg",
+            "oldPrice": "990.000",
+            "newPrice": "740.000",
+            "discount": "25",
+            "totalSold": "21",
+            "brand": "Trẻ L1",
+            "address": "Nam Từ Liêm"
+        },
+        {
+            "name": "Phóng lợn hàn sẵn (Thép Đức chất lượng cao)",
+            "image": "./assets/img/Product1.jpg",
+            "oldPrice": "1.490.000",
+            "newPrice": "1.290.000",
+            "discount": "13",
+            "totalSold": "88",
+            "brand": "Trẻ L1",
+            "address": "Nam Từ Liêm"
+        },
+        {
+            "name": "Hơi cay dân dụng",
+            "image": "./assets/img/Product2.jpg",
+            "oldPrice": "990.000",
+            "newPrice": "740.000",
+            "discount": "25",
+            "totalSold": "21",
+            "brand": "Trẻ L1",
+            "address": "Nam Từ Liêm"
+        },
+        {
+            "name": "Phóng lợn hàn sẵn (Thép Đức chất lượng cao)",
+            "image": "./assets/img/Product1.jpg",
+            "oldPrice": "1.490.000",
+            "newPrice": "1.290.000",
+            "discount": "13",
+            "totalSold": "88",
+            "brand": "Trẻ L1",
+            "address": "Nam Từ Liêm"
+        },
+        {
+            "name": "Hơi cay dân dụng",
+            "image": "./assets/img/Product2.jpg",
+            "oldPrice": "990.000",
+            "newPrice": "740.000",
+            "discount": "25",
+            "totalSold": "21",
+            "brand": "Trẻ L1",
+            "address": "Nam Từ Liêm"
+        }
+    ]
+}
